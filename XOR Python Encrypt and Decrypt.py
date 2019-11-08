@@ -8,7 +8,7 @@ from random import randint
 def key():
     chave = []
     for c in range(50):
-        chave.append(chr(randint(33, 126)))
+        chave.append(chr(randint(500, 700)))
     print('------------------------------------------\n')
     print('Sua chave:\n' + ''.join(chave) + '\n')
     print('\n------------------------------------------')
