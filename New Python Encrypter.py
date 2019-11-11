@@ -1,8 +1,9 @@
 from random import randint
 
+
 def key():
     chave = []
-    for c in range(50):
+    for c in range(len(mensagem) + 15):
         chave.append(chr(randint(500, 700)))
     print('\nSua chave:\n' + ''.join(chave) + '\n')
     return chave
@@ -24,11 +25,10 @@ while True:
         '[3] Digite "3" para Sair.\n'
         '[User]: ')
 
-
     if decisao == '1':
         print('---------------Criptografar---------------')
-        _chave = key()
         mensagem = list(input('Digite sua mensagem:\n'))
+        _chave = key()
         encrypt()
 
     if decisao == '2':
