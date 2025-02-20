@@ -1,3 +1,5 @@
-[Py] This program was created for university work, carried out in a group of 5 members. First, I created a 'standard encryption' python code (using ORD and CHR functions), so we could all edit this code to enhance it. After that, we created a key system makes it difficult to "break encryption".
+[Py] This program was created for a university project, carried out by a group of five members. Initially, I developed a 'standard encryption' Python code (using the ord and chr functions), so we could all edit and enhance it. Subsequently, we created a key system to make it more difficult to break the encryption.
 
-[C#] One member simplified the code and created a simple but very practical graphical user interface (https://github.com/luiz-diniz/XorCrypt)
+The file named "raw XOR Python encrypt and decrypt.py" provides a more explicit demonstration of the algorithm.
+
+[C#] One member simplified the code and created a simple yet very practical graphical user interface (https://github.com/luiz-diniz/XorCrypt)
